@@ -1,0 +1,32 @@
+.itemcount__conteiner {
+    margin: 1rem;
+    display: flex;
+}
+
+.itemcount {
+    margin: 0 1rem;
+    button {
+        padding: .2rem 1rem;
+        font-size: 1.4rem;
+        border: none;
+        background-color: rgb(60, 101, 67);
+        color: white;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    span {
+        margin: 0 .3rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}
+
+.itemcount__agregar {
+    border: none;
+    background-color: rgb(80, 73, 119);
+    color: white;
+    padding: .2rem 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
