@@ -1,10 +1,10 @@
 import Proptypes from 'prop-types';
+import {Link, link} from 'react-router-dom';
+import { useState, useEffect } from 'react';
+
 
 import Cardwidget from '../Cartwidget';
 import Navbarinput from '../Navbarinput';
-import Itemcard from '../Itemcard';
-import {Link, link} from 'react-router-dom';
-import { useState, useEffect } from 'react';
 
 const Navbar = ({menus, children}) => {
 
@@ -48,9 +48,6 @@ const Navbar = ({menus, children}) => {
             <div className="navbar__abajo">
                 <Navbarinput />
                 <Cardwidget />
-            </div>
-            <div>
-                <Itemcard />
             </div>
         </div>
     )

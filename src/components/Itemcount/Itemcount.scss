@@ -1,12 +1,12 @@
 .itemcount__conteiner {
-    margin: 1rem;
     display: flex;
+    margin: 1rem 0;
 }
 
 .itemcount {
-    margin: 0 1rem;
     button {
         padding: .2rem 1rem;
+        margin: 0 .5rem;
         font-size: 1.4rem;
         border: none;
         background-color: rgb(60, 101, 67);
@@ -29,4 +29,19 @@
     font-size: 1.1rem;
     cursor: pointer;
     border-radius: 3px;
+}
+
+@media (max-width: 400px) {
+    .itemcount__conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .itemcount {
+        button {
+            margin: .4rem 0;
+        }
+    }
 }

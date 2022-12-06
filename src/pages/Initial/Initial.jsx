@@ -1,43 +1,46 @@
 import Layout from '../../components/Layout';
 import Navbar from '../../components/Navbar';
 import Itemlistcontainer from '../../components/Itemlistcontainer';
+import ItemDetailContainer from '../../components/ItemDetailContainer';
 
-import Contacto from '../../components/Contacto';
-import Productos from '../../components/Productos';
 import Home from '../../components/Home';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Detalle from '../../components/Detalle';
 
 
 const Initial = () => {
     const Menus = [
         {
             name: 'HOME',
-            href: '/'
+            href: '/' 
         },
         {
             name: 'REPRESENT',
-            href: '/represent'   
+            href: '/categoria/represent'   
+        },
+        {
+            name: 'C.R.E.A.M',
+            href: '/categoria/cream'   
         },
         {
             name: 'PRESIDENTE',
-            href: '/presidente'
+            href: '/categoria/presidente'
         },
         {
             name: 'BEER & CHURROS',
-            href: '/beerchurros'
+            href: '/categoria/beer'
         },
         {
             name: 'TIGER',
-            href: '/tiger'
+            href: '/categoria/tiger'
         },
         {
             name: `OG'S`,
-            href: '/og'
+            href: '/categoria/og'
         }
-
     ]
+
+
     
     return (
         <Layout>   
@@ -45,9 +48,8 @@ const Initial = () => {
                 <Navbar menus={Menus} />
                 <Routes>
                     <Route exact path='/' element={<Home />} />
-                    <Route exact path='/contacto' element={<Contacto />} />
-                    <Route exact path='/productos'element={<Productos />} />
-                    <Route exact path='/detalleproducto/:idproducto' element={<Detalle />}/>
+                    <Route exact path='/categoria/:categoriaid' element={<Itemlistcontainer />}/>
+                    <Route exact path='/item/:itemid' element={<ItemDetailContainer />}/>
                 </Routes>
             </BrowserRouter>  
         </Layout>
