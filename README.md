@@ -10,7 +10,7 @@ Se trata de un e-commerce basado en la saga de pokemon.
 Estoy estudiando para convertirme en Desarrollador Front-End.  
 Con este curso de React JS, termino la carrera de CODERHOUSE y empezaria a enfocarme en la busqueda laboral.
 
-Te dejo mi LinkedIn: https://www.linkedin.com/in/alvezmatiass/ 
+Te dejo mi LinkedIn: https://www.linkedin.com/in/alvezmatiass/,
 Gmail: matiasalvez2018@gmail.com
 
 ## Ver sitio web
