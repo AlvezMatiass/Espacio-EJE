@@ -14,7 +14,7 @@ Te dejo mi LinkedIn: https://www.linkedin.com/in/alvezmatiass/
 
 Gmail: matiasalvez2018@gmail.com
 
-## Ver sitio web
+## Ver sitio web - Recomiendo utilizar la version Mobile
 
 #### Subido mediante netlify
 https://app.netlify.com/sites/soft-speculoos-1a776b/deploys
