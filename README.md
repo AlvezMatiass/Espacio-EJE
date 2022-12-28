@@ -1,4 +1,4 @@
-# PROYECTO REACT - MARTIN AGUIRRE
+# PROYECTO REACT - MATIAS ALVEZ
 
 Hola!
 Este sitio web es el proyecto que realicé en la cursada de React de CODERHOUSE.  
