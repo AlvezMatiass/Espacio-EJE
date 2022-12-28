@@ -21,7 +21,7 @@ https://especioeje.netlify.app/
 
 
 ## Tecnologías
-Se usó React para la mayor parte del proyecto.  
+Se usó ReactJS para la mayor parte del proyecto.  
 Firebase de google para el manejo de productos.
 Firestore Database para guardar los productos y pedidos.  
 npm para el manejo e instalación de paquetes.  
