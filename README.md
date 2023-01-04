@@ -17,7 +17,7 @@ Gmail: matiasalvez2018@gmail.com
 ## Ver sitio web - Recomiendo utilizar la version Mobile
 
 #### Subido mediante netlify
-https://especioeje.netlify.app/
+https://espacioeje.netlify.app/
 
 
 ## Tecnologías
